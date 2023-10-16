@@ -72,7 +72,7 @@ class _SliverInfiniteListState extends State<SliverInfiniteList> {
   void initState() {
     super.initState();
     debounce = CallbackDebouncer(widget.debounceDuration);
-    attemptFetch();
+    // attemptFetch();
   }
 
   @override
