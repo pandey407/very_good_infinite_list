@@ -79,7 +79,7 @@ class _SliverInfiniteListState extends State<SliverInfiniteList> {
   void didUpdateWidget(SliverInfiniteList oldWidget) {
     super.didUpdateWidget(oldWidget);
     if (!widget.hasReachedMax && oldWidget.hasReachedMax) {
-      attemptFetch();
+      // attemptFetch();
     }
   }
 
